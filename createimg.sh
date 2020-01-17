@@ -25,5 +25,5 @@ do
 	           -draw "fill rgb(${COL[3]}, ${COL[4]}, ${COL[5]}) text 100, 300 'H'" \
 		       -draw "fill none stroke rgb(${COL[6]}, ${COL[7]}, ${COL[8]})  stroke-width $stroke circle 200, 200, 380, 200" \
 	           img/h$k.jpg
-	echo "0 0 0 400 400" > img/h$k.txt
+	echo "0 0.02 0.02 0.98 0.98" > img/h$k.txt
 done
