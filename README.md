@@ -11,6 +11,7 @@
 4. Train
 
 ```
+mkdir backup
 darknet detector train custom.data yolov3.cfg darknet53.conv.74 
 ```
 
@@ -29,3 +30,4 @@ _Note_: Due to a bug in darknet if you are working in another directory than dar
 
 - Convert all png's to jpg: ``` for i in *.png; do convert $i $(basename $i png)jpg ; done ```
 
+- ```-clear 1``` argument of darknet discards previously trained batch count
