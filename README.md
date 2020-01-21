@@ -6,13 +6,13 @@
 
 2. Follow the steps [here](https://blog.francium.tech/custom-object-training-and-detection-with-yolov3-darknet-and-opencv-41542f2ff44e)
 
-3. Download yolo v3 [weights](https://pjreddie.com/darknet/imagenet/#darknet53)
+3. Download yolo v3 [weights](https://pjreddie.com/media/files/yolov3.weights)
 
 4. Train
 
 ```
 mkdir backup
-darknet detector train custom.data yolov3.cfg darknet53.conv.74 
+darknet detector train custom.data yolov3.cfg yolov3.weights -clear 1
 ```
 
 5. Infer
