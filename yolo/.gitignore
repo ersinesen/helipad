@@ -1,3 +1,4 @@
 backup/
 predictions.jpg
 data
+.DS_Store

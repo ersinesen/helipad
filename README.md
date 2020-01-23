@@ -23,6 +23,12 @@ darknet detector test custom.data yolov3.cfg backup/yolov3_final.weights ../img/
 
 ![Sample Result](https://raw.githubusercontent.com/ersinesen/helipad/master/sample.jpg?token=ABK54HCUAXS6GBWYYNYS7IK6FFNK4)
 
+6. Try colab notebooks
+
+[Train](https://colab.research.google.com/drive/1Gpx6uVG6qH5GM7nwAck5FCobMhKESgn_)
+
+[Predict](https://colab.research.google.com/drive/1DVpHjvUuKCUr_ShkM6dm0QuJtNSaWmWE)
+
 # Vision based Distance Measurement
 
 [TODO]
