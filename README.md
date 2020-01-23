@@ -20,7 +20,6 @@ darknet detector train custom.data yolov3.cfg yolov3.weights -clear 1
 ```
 darknet detector test custom.data yolov3.cfg backup/yolov3_final.weights ../img/helipad9.jpg -thresh 0.9
 ```
-_Note_: Due to a bug in darknet if you are working in another directory than darknet's, make a link to data/labels directory.
 
 # Vision based Distance Measurement
 
@@ -31,3 +30,5 @@ _Note_: Due to a bug in darknet if you are working in another directory than dar
 - Convert all png's to jpg: ``` for i in *.png; do convert $i $(basename $i png)jpg ; done ```
 
 - ```-clear 1``` argument of darknet discards previously trained batch count
+
+- Due to a bug in darknet if you are working in another directory than darknet's, make a link to data/labels directory.
