@@ -21,6 +21,8 @@ darknet detector train custom.data yolov3.cfg yolov3.weights -clear 1
 darknet detector test custom.data yolov3.cfg backup/yolov3_final.weights ../img/helipad9.jpg -thresh 0.9
 ```
 
+[Sample Result](https://raw.githubusercontent.com/ersinesen/helipad/master/sample.jpg?token=ABK54HCUAXS6GBWYYNYS7IK6FFNK4)
+
 # Vision based Distance Measurement
 
 [TODO]
